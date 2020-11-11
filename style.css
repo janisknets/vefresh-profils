@@ -1,0 +1,29 @@
+.navigacijas-poga {
+  text-align: left;
+  font: normal normal normal 20px/27px Segoe UI;
+  color: #FFFFFF;
+}
+
+.profila-bilde {
+  width: 238px;
+  height: 238px;
+}
+
+#galvene {
+  background: transparent url('img/shutterstock_295846730-1280x720.png') 0% 0% no-repeat padding-box;
+  top: 0px;
+  left: 0px;
+  width: 1366px;
+  height: 255px;
+}
+
+h1 {
+  text-align: left;
+  font: normal normal normal 50px/67px Segoe UI;
+  text-transform: uppercase;
+}
+
+p {
+  text-align: left;
+  font: normal normal normal 24px/29px Roboto;
+}
