@@ -1,42 +1,36 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
-    <title>Mans Profils</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div id="galvene" class="container" >
-      <div class="row">
-        <div id="navigacija" class="col-md-8 offset-md-2" >
-          <span class="navigacijas-poga" >Par mani</span>
-          <span class="navigacijas-poga" >Curriculum vitae</span>
-          <span class="navigacijas-poga" >Mani Hobiji</span>
-          <span class="navigacijas-poga" >Kontakti</span>
+    <div class="header" >
+      <div class="container">
+        <div class="col-md-8 offset-md-2 menu">
+          <span class="menu-button" >Par Mani</span>
+          <span class="menu-button" >Curriculum Vitae</span>
+          <span class="menu-button" >Mani Hobiji</span>
+          <span class="menu-button" >Kontakti</span>
+        </div>
+        <div class="row center">
+          <img class="profile-image" src="./images/profile-image.png" />
         </div>
       </div>
-      <div class="row">
-        <img style="profila-bilde" src="img/profile-image.png" />
-      </div>
     </div>
-    <div>
-    <div id="saturs" class="container" >
-      <div class="row">
-        <h1>Sveiki, es esmu Jānis</h1>
-        <p>Esmu dzimis 1988 gadā 15 jūlijā Liepājā. Jau kopš tīņa gadiem mani interesēja datori, protams, vairāk tās bija datorspēles, bet, ar laiku, arī aizrāva datorspēļu programmēšana.</p>
-        <p>Pēc Liepājas 15. vidusskolas pabeigšanas, es iestājos Latvijas Universitātes Datorikas fakultātē. Tur gan sākumā viss tik spoži negāja - pabeigt bakalaura programmu sanāca tikai ar otro piegājienu.</p>
-        <p>2011. gada vasarā iestājos Accenture Latvia "Bootcamp" apmācībās. Šīs apmācības ilga 1 mēnesi, pēc kuru pabeigšanas mani piedāvāja iespēju būt par internu dotajā uzņēmumā. 2012. gada 2. janvārī es uzsāku savas pilnas darba attiecības ar šo uzņēmumu. Tagad jau esmu vairāk nekā 8 gadus šeit.</p>
-        <p>Šo deviņu gadu laikā es izaugu no interna, kurš maz ko saprata no programmatūras izstrādes, par tehnisko arhitektu. Manā ikdienā ietilpst arhitektūras izstrāde jauniem risinājumiem, eksistējošo projektu validēšana, palīdzība izstrādātājiem u.c.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae lacus dolor. In ac erat purus. Quisque ac nibh a enim faucibus efficitur. Curabitur vestibulum, quam finibus dictum tempus, dolor purus semper tortor, in ultrices tellus nisi ornare turpis. Nam ornare mauris enim, ac eleifend lacus blandit id. Nullam eget neque quis ante sagittis interdum vel vitae leo. Sed accumsan elementum semper. Suspendisse in hendrerit nunc, a congue justo. Suspendisse ut ultrices est. Mauris cursus commodo nisl, at sodales libero vestibulum malesuada. Nunc blandit sem et luctus consectetur. Fusce consequat leo at nisl rhoncus, nec placerat arcu maximus.</p>
-      </div>
-      <div id="pogu-bloks" class="row">
-        <button>Poga I</button>
-        <button>Poga II</button>
-        <button>Poga III</button>
-        <button>Poga IV</button>
-        <button>Poga V</button>
-        <button>Poga VI</button>
-        <button>Poga VII</button>
-        <button>Poga VIII</button>
+    <div class="container content">
+      <div class="row" >
+        <div class="col-md-10 offset-md-1">
+          <h1>Sveiki, Es esmu Jānis</h1>
+          <div>
+            <p>Esmu dzimis 1988. gadā 15. jūlijā Liepājā. Jau kopš tīņa gadiem mani interesēja datori, protams, vairāk tās bija datorspēles, bet, ar laiku, arī aizrāva datorspēļu programmēšana.</p>
+            <p>Pēc Liepājas 15. vidusskolas pabeigšanas, es iestājos Latvijas Universitātes Datorikas fakultātē. Tur gan sākumā viss tik spoži negāja - pabeigt bakalaura programmu sanāca tikai ar otro piegājienu.</p>
+            <p>2011. gada vasarā iestājos Accenture Latvia "Bootcamp" apmācībās. Šīs apmācības ilga 1 mēnesi, pēc kuru pabeigšanas mani piedāvāja iespēju būt par internu dotajā uzņēmumā. 2012. gada 2. janvārī es uzsāku savas pilnas darba attiecības ar šo uzņēmumu. Tagad jau esmu vairāk nekā 8 gadus šeit.</p>
+            <p>Šo deviņu gadu laikā es izaugu no interna, kurš maz ko saprata no programmatūras izstrādes, par tehnisko arhitektu. Manā ikdienā ietilpst arhitektūras izstrāde jauniem risinājumiem, eksistējošo projektu validēšana, palīdzība izstrādātājiem u.c.</p>
+          </div>
+        </div>
       </div>
     </div>
   </body>
